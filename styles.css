@@ -1,0 +1,233 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h3, p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
+  color: #34383d;
+  transition: 0.7s ease-in-out;
+}
+a:hover {
+color: white;
+transition: 0.7s ease-in-out;
+text-decoration:underline;
+}
+
+
+.navLogo {
+  color: #ececec;
+  text-transform:uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 0.5vw;
+  padding: 2%;
+
+}
+.contact-btn {
+    transition: background-color 1s ease, transform 1s ease; 
+   background-color: #c7c7c7;
+   box-shadow: 0 4px 30px rgba(255, 255, 255, 0.8);
+   padding:1% 2% ;
+   color: #34383d;
+}
+.contact-btn:hover {
+    background-color: #343a3f; 
+    transform: scale(1.1); 
+    color: white;
+}
+#skills, #navbar {
+  background: repeating-linear-gradient(
+    180deg,
+    #c9c9c9,
+    #404041 1px,
+    #404041 4px,
+    #404041 4px
+  );
+
+}
+
+.skill {
+  background-color: #ecebebe3;
+    transition: 0.8s ease-in-out ;
+}
+.skill:hover {
+  background-color: #dbdada;
+    transition: 0.8s ease-in-out ;
+}
+.about {
+    background-color: #34383d; 
+}
+  .about-p {
+margin: 10%;
+text-align: justify;
+}
+  .design-tech {
+    color: black;
+}
+#projects {
+  background: radial-gradient(#dadada 10%, transparent 10%) 0 0,
+  radial-gradient(#dadada 10%, transparent 10%) 50px 5px;
+  background-size: 1.67vw 0.83vw;
+  background-color: #e6e6e6;
+  
+}
+
+.project-div {
+  transition: 0.8s ease-in-out ;
+  background-color: #bbbbbbe3;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  
+  
+}
+
+.project-div:hover {
+  background-color: #a0a0a0e3;
+  transition: 0.8s ease-in-out ;
+
+  
+}
+.experience {
+background-color: #dddddd; 
+}
+.experience p {
+color: #34383d;
+}
+.experience h3 {
+color: #34383d;
+} 
+.experience h3 {
+  margin-top: 10%;
+}
+.about h3 {
+  margin-top: 10%;
+}
+
+#resumeAll {
+  background-image: url(2.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.resume {
+  background-color: transparent; 
+  color: #ffffff;
+  transition: 0.5s ease-in-out ;
+  cursor: pointer;
+
+}
+
+.resume:hover {
+  background-color: transparent; 
+  color: #141414;
+  transition: 0.5s ease-in-out ;
+  font-weight: bold;
+}
+
+.icon {
+ color :#dbdada;
+ transition: 0.5s ease-in-out ;
+}
+
+.icon:hover {
+  color :#dbdada;
+  color: #545657;
+  filter: drop-shadow(1px 1px 5px white);
+  transition: 0.5s ease-in-out ; 
+ }
+.footer {
+  background-color: #343a3f;
+}
+
+#home {
+background-image: url(my.gif) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+.otherDocument {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease, opacity 1s ease;
+}
+
+.otherDocument.visible {
+  opacity: 1;
+  max-height: 15.625vw; 
+}
+
+.moreData {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.moreData.visible {
+  opacity: 1;
+  max-height: 15.625vw; 
+}
+
+#contact-nav {
+  background: repeating-linear-gradient(
+    180deg,
+    #c9c9c9,
+    #404041 1px,
+    #404041 4px,
+    #404041 4px
+  );
+}
+
+.project-div-left, .project-div-right {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s ease-out;
+}
+
+.project-div-left.visible, .project-div-right.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project-div-left {
+  transform: translateX(-100px);
+}
+
+.project-div-right {
+  transform: translateX(100px);
+}
+
+
+
+
+/* .skill-left, .skill-right {
+  opacity: 0;
+  transition: opacity 3s ease, transform 0.5s ease;
+}
+
+.skill-left {
+  transform: translateX(-100%); 
+}
+
+.skill-left.visible-left {
+  opacity: 1;
+  transform: translateX(0); 
+}
+
+.skill-right {
+  transform: translateX(100%); 
+}
+
+.skill-right.visible-right {
+  opacity: 1;
+  transform: translateX(0); 
+} */

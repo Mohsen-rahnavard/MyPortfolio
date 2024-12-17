@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body class="bg-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="navbar">
+    <div class="container">
+      <a class="navbar-brand navLogo" href="#">My Portfolio</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="d-flex flex-column align-items-center justify-content-center vh-100 bg-dark text-white">
+    <h2 class="display-4 fw-semibold">Mohsen Rahnavard</h2>
+    <p class="fs-5 text-center">Front-end Developer | Focused on Aesthetic and User-Centered Design </p>
+    <button class="btn btn-light mt-4 contact-btn border-0" id="contactButton">Contact Me</button>
+    
+    
+  </section>
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-white">
+    <div class="container text-center">
+      <h3 class="display-6 fw-bold mb-4">Skills</h3>
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <div class="skill skill-left p-3 rounded">HTML</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill skill-left p-3 rounded">CSS</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill skill-right p-3 rounded">JavaScript</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill skill-right p-3 rounded">GSAP</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill skill-left p-3 rounded">SCSS</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill skill-left p-3 rounded">Tailwind</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill skill-right p-3 rounded">Bootstrap</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill skill-right p-3 rounded">Vue & React</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container text-center">
+      <h3 class="display-6 fw-bold mb-4">Projects</h3>
+      <div class="row g-4">
+        <div class="col-md-6 project-div-left">
+          <div class="project-div p-3 rounded" data-bs-toggle="collapse">
+            <h4 class="fw-semibold">Aesthetic-focused</h4>
+            <p>Music and Art Showcase</p>
+            <div class="otherDocument">
+              <p>HTML- CSS - JS</p>
+              <a href="https://mohsenrahnavard.com/" target="_blank">Sample I</a><span>--</span>
+              <a href="https://2designes-small-and-big-screens.netlify.app/" target="_blank">Sample II</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 project-div-right">
+          <div class="project-div p-3 rounded" data-bs-toggle="collapse">
+            <h4 class="fw-semibold">Real state</h4>
+            <p>Real Estate Listings & Guidance</p>
+            <div class="otherDocument">
+              <p>HTML- CSS - VUE.JS</p>
+              <a href="https://realstatevue.netlify.app/" target="_blank">Sample</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 project-div-left">
+          <div class="project-div p-3 rounded" data-bs-toggle="collapse">
+            <h4 class="fw-semibold">AI Photo</h4>
+            <p> Photo - Art - Edit</p>
+            <div class="otherDocument">
+              <p>HTML-CSS-Tailweind-React</p>
+              <a href="https://fotto.ai/" target="_blank">Sample</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 project-div-right">
+          <div class="project-div p-3 rounded" data-bs-toggle="collapse">
+            <h4 class="fw-semibold">Sale</h4>
+            <p>A brief description of the project.</p>
+            <div class="otherDocument">
+              <p>HTML- Bootstrap - JS</p>
+              <a href="#" target="_blank">Sample</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <section id="about" class="about d-flex flex-column align-items-center justify-content-center vh-200 text-white">
+    <h3 class="fw-semibold">About Me</h3>
+    <p class="about-p fs-6">After deciding to leave my university studies I began my journey of learning on my own.
+       I've been a musician for almost 25 years - teaching, composing and publishing books - at the age of 33, 
+       I started coding because I believe code is modern art. I love creating, cooking,
+        walking, and especially learning!
+      I'm a self-taught Front-End Developer with a focus on creating dynamic, 
+      user-centered web and app experiences. Skilled in HTML, CSS, JavaScript
+      <br><br>
+      • Design & Front-End Skills: HTML, CSS, JavaScript, GSAP, SCSS, Tailwind, Bootstrap, Vue.js, React.js <br>
+      • Tools: Git, VS Code, Figma, GIMP, Photoshop. <br>
+      • Focus Areas: User-Centered Design, Responsive Design, Visual, Aesthetics, Cross-Browser Compatibility.</p>
+  </section>
+
+  <section id="resumeAll" class="py-5 bg-white d-flex justify-content-center align-items-center">
+    <div class="container text-center">
+      <div class="row g-3 justify-content-center">
+        <div class="col-12 col-md-3">
+          <div class="resume p-3 rounded" data-bs-toggle="collapse" data-bs-target="#certifications">
+            <h5>Certifications</h5>
+            <p></p>
+            <div class="collapse" id="certifications">
+              <p>Front-End Development Specialization</p><hr>
+              <p>HTML and CSS for Web/App Development</p><hr>
+              <p>JavaScript Essentials</p><hr>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-md-3">
+          <div class="resume p-3 rounded" data-bs-toggle="collapse" data-bs-target="#languages">
+            <h5>Languages</h5>
+            <p></p>
+            <div class="collapse" id="languages">
+              <p>English (Professional)</p><hr>
+              <p>Persian (Native)</p><hr>
+              <p>Dutch (In progress (B1), actively studying)</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-md-3">
+          <div class="resume p-3 rounded" data-bs-toggle="collapse" data-bs-target="#background">
+            <h5>Additional Background</h5>
+            <p></p>
+            <div class="collapse" id="background">
+              <p>Orchestral, ambient, and electronic composer with five published books on music.</p><hr>
+              <p>Photographer and visual artist.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="experience" class="experience d-flex flex-column align-items-center justify-content-center vh-200">
+    <h3 class="fw-semibold">Last Position</h3>
+    <p class="about-p fs-6">Front-end Developer (Full-time)
+      Deevise <br>
+      July 2023 – July 2024 <br> <br>
+      
+      - Developed and maintained responsive and dynamic web applications using HTML, CSS, and  
+        JavaScript, ensuring pixel-perfect accuracy and user-friendly interfaces that enhance overall 
+        user experience. <br>
+      - Integrated RESTful APIs for dynamic content updates, facilitating seamless design transitions 
+        across devices and optimizing performance. <br>
+      - Addressed challenges in optimizing large-scale web applications for performance and cross-   browser compatibility, ensuring smooth functionality and visual integrity across all platforms.
+      - Successfully implemented advanced CSS features like Flexbox and Grid to create harmonious. <br> 
+        layouts that adapt fluidly to various screen sizes. <br>
+      - Crafted precise media queries to optimize visual presentation and performance across mobile, 
+        tablet,  and desktop views, fine-tuning layouts for enhanced design coherence.</p>
+  </section>
+
+  <section id="contact-nav" class="py-5 bg-dark">
+    <div class="container text-center">
+      <div class="row justify-content-center g-3">
+        <div class="col-12 col-md-4 m-4 text-center">
+          <a href="mailto:mohsenrahnavardd@gmail.com">
+            <i class="icon fas fa-envelope fa-3x"></i>
+          </a>
+        </div>
+        <div class="col-12 col-md-4 m-4 text-center">
+          <a href="tel:+31645662043">
+            <i class="icon fas fa-phone fa-3x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="footer text-light text-center py-3">
+    <p class="mb-0">&copy; 2024 Mohsen Rahnavard</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
